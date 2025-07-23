@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:int0025="urn:com.workday.custom.int0025.common" 
+    elementFormDefault="qualified" 
+    attributeFormDefault="qualified"
+    targetNamespace="urn:com.workday.custom.int0025.common">
+    
+    <xsd:element name="FlexLogs" type="int0025:FlexLogsType"/>
+
+    <xsd:complexType name="FlexLogsType">
+        <xsd:sequence>
+            <xsd:element name="FlexLog" type="int0025:FlexLogType" minOccurs="0" maxOccurs="100"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="FlexLogType">
+        <xsd:sequence>
+            <xsd:element name="Field" type="int0025:FieldType" minOccurs="1" maxOccurs="200"/>
+        </xsd:sequence>
+        <xsd:attribute name="logName" type="xsd:string" use="required"/>
+        <xsd:attribute name="filename" type="xsd:string"/>
+        <xsd:attribute name="maxEntriesPerFile" type="xsd:integer"/>
+        <xsd:attribute name="retention" type="xsd:integer"/>
+        <xsd:attribute name="separator" type="xsd:string"/>
+        <xsd:attribute name="deliverable" type="xsd:boolean"/>
+        <xsd:attribute name="aggregationDocumentTag" type="xsd:string"/>
+        <xsd:attribute name="aggregationWorksheet" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="FieldType">
+        <xsd:sequence>
+            <xsd:element name="Parameter" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Header" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

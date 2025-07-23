@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:wd="urn:com.workday/bsvc"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <env:Header>
+        <wd:Workday_Common_Header>
+            <wd:Include_Reference_Descriptors_In_Response>true</wd:Include_Reference_Descriptors_In_Response>
+        </wd:Workday_Common_Header>
+    </env:Header>
+    <env:Body>
+        <wd:Get_Integration_Systems_Request wd:version="v39.0">
+            <wd:Request_References>
+                <wd:Integration_System_Reference>
+                    <wd:ID wd:type="Integration_System_ID">INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere</wd:ID>
+                </wd:Integration_System_Reference>
+            </wd:Request_References>
+            <wd:Response_Group>
+                <wd:Include_Reference>true</wd:Include_Reference>
+                <wd:Show_Values_For_All_Environments>true</wd:Show_Values_For_All_Environments>
+            </wd:Response_Group>
+        </wd:Get_Integration_Systems_Request>
+    </env:Body>
+</env:Envelope>

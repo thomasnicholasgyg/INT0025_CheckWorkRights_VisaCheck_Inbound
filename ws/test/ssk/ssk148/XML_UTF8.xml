@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:diff="urn:com.workday/reportdiff" xmlns:wd="urn:com.workday.report/TopOfStack_Tapestry_ObjectData">
+	<wd:Report_Entry diff:isAdded="true">
+		<wd:Position_ID diff:isAdded="true">P-00001</wd:Position_ID>
+		<wd:Position diff:isAdded="true">
+			<wd:Position_Job_Posting_Title diff:isAdded="true">Chief Executive Officer</wd:Position_Job_Posting_Title>
+			<wd:Position_Status wd:Descriptor="Filled" wd:isAdded="true">
+				<wd:ID wd:isAdded="true" wd:type="WID">5775394cfee24ea581a26048297fc148</wd:ID>
+			</wd:Position_Status>
+			<wd:Position_Availability_Date diff:isAdded="true">2000-01-01-08:00</wd:Position_Availability_Date>
+			<wd:Position_Earliest_Hire_Date diff:isAdded="true">2000-01-01-08:00</wd:Position_Earliest_Hire_Date>
+			<wd:Position_Time_Type_Ref_ID diff:isAdded="true">Full_time</wd:Position_Time_Type_Ref_ID>
+			<wd:Position_Time_Type_Name wd:Descriptor="Full time" wd:isAdded="true">
+				<wd:ID wd:isAdded="true" wd:type="WID">900fa8d9ae6f45a0a788545a85878f40</wd:ID>
+				<wd:ID wd:isAdded="true" wd:type="Position_Time_Type_ID">Full_time</wd:ID>
+			</wd:Position_Time_Type_Name>
+			<wd:Position_Worker_Subtype_Ref_ID wd:Descriptor="Regular" wd:isAdded="true">
+				<wd:ID wd:isAdded="true" wd:type="WID">9459f5e6f1084433b767c7901ec04416</wd:ID>
+				<wd:ID wd:isAdded="true" wd:type="Employee_Type_ID">REGULAR</wd:ID>
+			</wd:Position_Worker_Subtype_Ref_ID>
+			<wd:Position_Company_Ref_ID diff:isAdded="true">500.1</wd:Position_Company_Ref_ID>
+			<wd:Position_Company_Name diff:isAdded="true">Global Modern Services, Inc. (USA)</wd:Position_Company_Name>
+			<wd:Position_Cost_Center_Ref_ID diff:isAdded="true">10000</wd:Position_Cost_Center_Ref_ID>
+			<wd:Position_Cost_Center_Name diff:isAdded="true">Office of CEO</wd:Position_Cost_Center_Name>
+		</wd:Position>
+		<wd:Location diff:isAdded="true">
+			<wd:Position_Location_Ref_ID diff:isAdded="true">San_Francisco_site</wd:Position_Location_Ref_ID>
+			<wd:Position_Location_Name diff:isAdded="true">San Francisco</wd:Position_Location_Name>
+		</wd:Location>
+		<wd:Job_Profile diff:isAdded="true">
+			<wd:Position_Job_Profile_Ref_ID diff:isAdded="true">25000</wd:Position_Job_Profile_Ref_ID>
+			<wd:Position_Job_Profile_Name diff:isAdded="true">Chief Executive Officer</wd:Position_Job_Profile_Name>
+		</wd:Job_Profile>
+		<wd:Hiring_Restrictions_-_Worker_Type diff:isAdded="true">
+			<wd:Position_Worker_Type_Ref_ID diff:isAdded="true">EE</wd:Position_Worker_Type_Ref_ID>
+		</wd:Hiring_Restrictions_-_Worker_Type>
+		<wd:Position_or_Hiring_Restrictions diff:isAdded="true">
+			<wd:Position_Worker_Type_Name wd:Descriptor="Employee" wd:isAdded="true">
+				<wd:ID wd:isAdded="true" wd:type="WID">d588c41a446c11de98360015c5e6daf6</wd:ID>
+				<wd:ID wd:isAdded="true" wd:type="Worker_Type_ID">EE</wd:ID>
+			</wd:Position_Worker_Type_Name>
+		</wd:Position_or_Hiring_Restrictions>
+		<wd:Supervisory_Organization diff:isAdded="true">
+			<wd:Position_Supervisory_Organization_Ref_ID diff:isAdded="true">Global_Modern_Services_supervisory</wd:Position_Supervisory_Organization_Ref_ID>
+			<wd:Position_Supervisory_Organization_Name diff:isAdded="true">Global Modern Services</wd:Position_Supervisory_Organization_Name>
+		</wd:Supervisory_Organization>
+		<wd:Manager_Supervisory_Organization diff:isAdded="true">
+			<wd:Position_Supervisory_Organization_Manager_DSID diff:isAdded="true">smorgan</wd:Position_Supervisory_Organization_Manager_DSID>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_First_Name diff:isAdded="true">Steve</wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name diff:isAdded="true">Morgan (CEO, Mgr 1000, 2000, 3000, 3500, 3600, CCM 1000, Team Leader)</wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>
+		</wd:Manager_Supervisory_Organization>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:Position_ID>P-00002</wd:Position_ID>
+		<wd:Position>
+			<wd:Position_Job_Posting_Title>Chief Information Officer</wd:Position_Job_Posting_Title>
+			<wd:Position_Status wd:Descriptor="Filled">
+				<wd:ID wd:type="WID">5775394cfee24ea581a26048297fc148</wd:ID>
+			</wd:Position_Status>
+			<wd:Position_Availability_Date>2000-01-01-08:00</wd:Position_Availability_Date>
+			<wd:Position_Earliest_Hire_Date>2000-01-01-08:00</wd:Position_Earliest_Hire_Date>
+			<wd:Position_Time_Type_Ref_ID diff:priorValue="264.2">Full_time</wd:Position_Time_Type_Ref_ID>
+			<wd:Position_Time_Type_Name wd:Descriptor="Full time">
+				<wd:ID wd:type="WID">900fa8d9ae6f45a0a788545a85878f40</wd:ID>
+				<wd:ID wd:type="Position_Time_Type_ID">Full_time</wd:ID>
+			</wd:Position_Time_Type_Name>
+			<wd:Position_Worker_Subtype_Ref_ID wd:Descriptor="Regular">
+				<wd:ID wd:type="WID">9459f5e6f1084433b767c7901ec04416</wd:ID>
+				<wd:ID wd:type="Employee_Type_ID">REGULAR</wd:ID>
+			</wd:Position_Worker_Subtype_Ref_ID>
+			<wd:Position_Company_Ref_ID diff:isAdded="true">500.1</wd:Position_Company_Ref_ID>
+			<wd:Position_Company_Name>Global Modern Services, Inc. (USA)</wd:Position_Company_Name>
+			<wd:Position_Cost_Center_Ref_ID>60000</wd:Position_Cost_Center_Ref_ID>
+			<wd:Position_Cost_Center_Name>Office of CIO</wd:Position_Cost_Center_Name>
+		</wd:Position>
+		<wd:Location>
+			<wd:Position_Location_Ref_ID diff:priorValue="216.1">San_Francisco_site</wd:Position_Location_Ref_ID>
+			<wd:Position_Location_Name>San Francisco</wd:Position_Location_Name>
+		</wd:Location>
+		<wd:Job_Profile>
+			<wd:Position_Job_Profile_Ref_ID>26000</wd:Position_Job_Profile_Ref_ID>
+			<wd:Position_Job_Profile_Name>Chief Information Officer</wd:Position_Job_Profile_Name>
+		</wd:Job_Profile>
+		<wd:Hiring_Restrictions_-_Worker_Type>
+			<wd:Position_Worker_Type_Ref_ID>EE</wd:Position_Worker_Type_Ref_ID>
+		</wd:Hiring_Restrictions_-_Worker_Type>
+		<wd:Position_or_Hiring_Restrictions>
+			<wd:Position_Worker_Type_Name wd:Descriptor="Employee">
+				<wd:ID wd:type="WID">d588c41a446c11de98360015c5e6daf6</wd:ID>
+				<wd:ID wd:type="Worker_Type_ID">EE</wd:ID>
+			</wd:Position_Worker_Type_Name>
+		</wd:Position_or_Hiring_Restrictions>
+		<wd:Supervisory_Organization>
+			<wd:Position_Supervisory_Organization_Ref_ID diff:priorValue="2500.103">Executive_Management_supervisory</wd:Position_Supervisory_Organization_Ref_ID>
+			<wd:Position_Supervisory_Organization_Name>Executive Management</wd:Position_Supervisory_Organization_Name>
+		</wd:Supervisory_Organization>
+		<wd:Manager_Supervisory_Organization>
+			<wd:Position_Supervisory_Organization_Manager_DSID>smorgan</wd:Position_Supervisory_Organization_Manager_DSID>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>Steve</wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name diff:priorValue="Morgan">Morgan (CEO, Mgr 1000, 2000, 3000, 3500, 3600, CCM 1000, Team Leader)</wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>
+		</wd:Manager_Supervisory_Organization>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:Position_ID>P-00004</wd:Position_ID>
+		<wd:Position>
+			<wd:Position_Job_Posting_Title>Chief Human Resources Officer</wd:Position_Job_Posting_Title>
+			<wd:Position_Status wd:Descriptor="Filled">
+				<wd:ID wd:type="WID">5775394cfee24ea581a26048297fc148</wd:ID>
+			</wd:Position_Status>
+			<wd:Position_Availability_Date>2000-01-01-08:00</wd:Position_Availability_Date>
+			<wd:Position_Earliest_Hire_Date>2000-01-01-08:00</wd:Position_Earliest_Hire_Date>
+			<wd:Position_Time_Type_Ref_ID>Full_time</wd:Position_Time_Type_Ref_ID>
+			<wd:Position_Time_Type_Name wd:Descriptor="Full time">
+				<wd:ID wd:type="WID">900fa8d9ae6f45a0a788545a85878f40</wd:ID>
+				<wd:ID wd:type="Position_Time_Type_ID">Full_time</wd:ID>
+			</wd:Position_Time_Type_Name>
+			<wd:Position_Worker_Subtype_Ref_ID wd:Descriptor="Regular">
+				<wd:ID wd:type="WID">9459f5e6f1084433b767c7901ec04416</wd:ID>
+				<wd:ID wd:type="Employee_Type_ID">REGULAR</wd:ID>
+			</wd:Position_Worker_Subtype_Ref_ID>
+			<wd:Position_Company_Ref_ID>500.1</wd:Position_Company_Ref_ID>
+			<wd:Position_Company_Name>Global Modern Services, Inc. (USA)</wd:Position_Company_Name>
+			<wd:Position_Cost_Center_Ref_ID>40000</wd:Position_Cost_Center_Ref_ID>
+			<wd:Position_Cost_Center_Name>Office of CHRO</wd:Position_Cost_Center_Name>
+		</wd:Position>
+		<wd:Location>
+			<wd:Position_Location_Ref_ID>San_Francisco_site</wd:Position_Location_Ref_ID>
+			<wd:Position_Location_Name>San Francisco</wd:Position_Location_Name>
+		</wd:Location>
+		<wd:Job_Profile>
+			<wd:Position_Job_Profile_Ref_ID>23000</wd:Position_Job_Profile_Ref_ID>
+			<wd:Position_Job_Profile_Name>Chief Human Resources Officer</wd:Position_Job_Profile_Name>
+		</wd:Job_Profile>
+		<wd:Hiring_Restrictions_-_Worker_Type>
+			<wd:Position_Worker_Type_Ref_ID>EE</wd:Position_Worker_Type_Ref_ID>
+		</wd:Hiring_Restrictions_-_Worker_Type>
+		<wd:Position_or_Hiring_Restrictions>
+			<wd:Position_Worker_Type_Name wd:Descriptor="Employee">
+				<wd:ID wd:type="WID">d588c41a446c11de98360015c5e6daf6</wd:ID>
+				<wd:ID wd:type="Worker_Type_ID">EE</wd:ID>
+			</wd:Position_Worker_Type_Name>
+		</wd:Position_or_Hiring_Restrictions>
+		<wd:Supervisory_Organization>
+			<wd:Position_Supervisory_Organization_Ref_ID>Executive_Management_supervisory</wd:Position_Supervisory_Organization_Ref_ID>
+			<wd:Position_Supervisory_Organization_Name>Executive Management</wd:Position_Supervisory_Organization_Name>
+		</wd:Supervisory_Organization>
+		<wd:Manager_Supervisory_Organization>
+			<wd:Position_Supervisory_Organization_Manager_DSID>smorgan</wd:Position_Supervisory_Organization_Manager_DSID>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>Steve</wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>Morgan (CEO, Mgr 1000, 2000, 3000, 3500, 3600, CCM 1000, Team Leader)</wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>
+		</wd:Manager_Supervisory_Organization>
+	</wd:Report_Entry>
+	<wd:Report_Entry diff:isDeleted="true">
+		<wd:Position_ID diff:isDeleted="true">P-00003</wd:Position_ID>
+		<wd:Position diff:isDeleted="true">
+			<wd:Position_Job_Posting_Title diff:isDeleted="true">Chief Financial Officer</wd:Position_Job_Posting_Title>
+			<wd:Position_Status wd:Descriptor="Filled" wd:isDeleted="true">
+				<wd:ID wd:isDeleted="true" wd:type="WID">5775394cfee24ea581a26048297fc148</wd:ID>
+			</wd:Position_Status>
+			<wd:Position_Availability_Date diff:isDeleted="true">2000-01-01-08:00</wd:Position_Availability_Date>
+			<wd:Position_Earliest_Hire_Date diff:isDeleted="true">2000-01-01-08:00</wd:Position_Earliest_Hire_Date>
+			<wd:Position_Time_Type_Ref_ID diff:isDeleted="true">264.2</wd:Position_Time_Type_Ref_ID>
+			<wd:Position_Time_Type_Name wd:Descriptor="Full time" wd:isDeleted="true">
+				<wd:ID wd:isDeleted="true" wd:type="WID">900fa8d9ae6f45a0a788545a85878f40</wd:ID>
+				<wd:ID wd:isDeleted="true" wd:type="Position_Time_Type_ID">Full_time</wd:ID>
+			</wd:Position_Time_Type_Name>
+			<wd:Position_Worker_Subtype_Ref_ID wd:Descriptor="Regular" wd:isDeleted="true">
+				<wd:ID wd:isDeleted="true" wd:type="WID">9459f5e6f1084433b767c7901ec04416</wd:ID>
+				<wd:ID wd:isDeleted="true" wd:type="Employee_Type_ID">REGULAR</wd:ID>
+			</wd:Position_Worker_Subtype_Ref_ID>
+			<wd:Position_Company_Name diff:isDeleted="true">Global Modern Services, Inc. (USA)</wd:Position_Company_Name>
+			<wd:Position_Cost_Center_Ref_ID diff:isDeleted="true">50000</wd:Position_Cost_Center_Ref_ID>
+			<wd:Position_Cost_Center_Name diff:isDeleted="true">Office of CFO</wd:Position_Cost_Center_Name>
+		</wd:Position>
+		<wd:Location diff:isDeleted="true">
+			<wd:Position_Location_Ref_ID diff:isDeleted="true">216.2</wd:Position_Location_Ref_ID>
+			<wd:Position_Location_Name diff:isDeleted="true">New York</wd:Position_Location_Name>
+		</wd:Location>
+		<wd:Job_Profile diff:isDeleted="true">
+			<wd:Position_Job_Profile_Ref_ID diff:isDeleted="true">27000</wd:Position_Job_Profile_Ref_ID>
+			<wd:Position_Job_Profile_Name diff:isDeleted="true">Chief Financial Officer</wd:Position_Job_Profile_Name>
+		</wd:Job_Profile>
+		<wd:Hiring_Restrictions_-_Worker_Type diff:isDeleted="true">
+			<wd:Position_Worker_Type_Ref_ID diff:isDeleted="true">EE</wd:Position_Worker_Type_Ref_ID>
+		</wd:Hiring_Restrictions_-_Worker_Type>
+		<wd:Position_or_Hiring_Restrictions diff:isDeleted="true">
+			<wd:Position_Worker_Type_Name wd:Descriptor="Employee" wd:isDeleted="true">
+				<wd:ID wd:isDeleted="true" wd:type="WID">d588c41a446c11de98360015c5e6daf6</wd:ID>
+				<wd:ID wd:isDeleted="true" wd:type="Worker_Type_ID">EE</wd:ID>
+			</wd:Position_Worker_Type_Name>
+		</wd:Position_or_Hiring_Restrictions>
+		<wd:Supervisory_Organization diff:isDeleted="true">
+			<wd:Position_Supervisory_Organization_Ref_ID diff:isDeleted="true">2500.103</wd:Position_Supervisory_Organization_Ref_ID>
+			<wd:Position_Supervisory_Organization_Name diff:isDeleted="true">Executive Management</wd:Position_Supervisory_Organization_Name>
+		</wd:Supervisory_Organization>
+		<wd:Manager_Supervisory_Organization diff:isDeleted="true">
+			<wd:Position_Supervisory_Organization_Manager_DSID diff:isDeleted="true">smorgan</wd:Position_Supervisory_Organization_Manager_DSID>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_First_Name diff:isDeleted="true">Steve</wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name diff:isDeleted="true">Morgan</wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>
+		</wd:Manager_Supervisory_Organization>
+	</wd:Report_Entry>
+</wd:Report_Data>

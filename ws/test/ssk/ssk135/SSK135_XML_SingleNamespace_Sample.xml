@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/SSK_Test_Workers">
+    <wd:Report_Entry>
+        <wd:Worker wd:Descriptor="Logan Mcneil">
+            <wd:ID wd:type="WID">3aa5550b7fe348b98d7b5741afc65534</wd:ID>
+            <wd:ID wd:type="Employee_ID">21001</wd:ID>
+        </wd:Worker>
+        <wd:Job_Profile wd:Descriptor="Chief Human Resources Officer">
+            <wd:ID wd:type="WID">fd72fab7db654fa3adbbe83ca23c43cb</wd:ID>
+            <wd:ID wd:type="Job_Profile_ID">23000</wd:ID>
+        </wd:Job_Profile>
+        <wd:Location wd:Descriptor="San Francisco">
+            <wd:ID wd:type="WID">d13a7c46a06443c4a33c09afbdf72c73</wd:ID>
+            <wd:ID wd:type="Location_ID">San_Francisco_site</wd:ID>
+        </wd:Location>
+        <wd:Language_Skills wd:Descriptor="French">
+            <wd:ID wd:type="WID">67327bff5f014925a36d37d2ef380159</wd:ID>
+            <wd:ID wd:type="Language_ID">234.17</wd:ID>
+        </wd:Language_Skills>
+        <wd:Language_Skills wd:Descriptor="Spanish">
+            <wd:ID wd:type="WID">e5c5860c2d964fd49ffdce2637eaee60</wd:ID>
+            <wd:ID wd:type="Language_ID">234.14</wd:ID>
+        </wd:Language_Skills>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="40000 Office of CHRO">
+                <wd:ID wd:type="WID">27d7d32c31864c87b5ad6afad9e6f4b3</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">40000</wd:ID>
+                <wd:ID wd:type="Cost_Center_Reference_ID">40000</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="Global Modern Services, Inc. (USA)">
+                <wd:ID wd:type="WID">cb550da820584750aae8f807882fa79a</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">GMS_USA</wd:ID>
+                <wd:ID wd:type="Company_Reference_ID">GMS_USA</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="Headquarters - Corporate">
+                <wd:ID wd:type="WID">2a99f6b9d77e45d6ba6061cde1575384</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">Headquarters_Region</wd:ID>
+                <wd:ID wd:type="Region_Reference_ID">Headquarters_Region</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:Worker wd:Descriptor="Steve Morgan">
+            <wd:ID wd:type="WID">0e44c92412d34b01ace61e80a47aaf6d</wd:ID>
+            <wd:ID wd:type="Employee_ID">21002</wd:ID>
+        </wd:Worker>
+        <wd:Job_Profile wd:Descriptor="Chief Executive Officer">
+            <wd:ID wd:type="WID">5f253469b5b44181995d8cabea44eeed</wd:ID>
+            <wd:ID wd:type="Job_Profile_ID">25000</wd:ID>
+        </wd:Job_Profile>
+        <wd:Location wd:Descriptor="San Francisco">
+            <wd:ID wd:type="WID">d13a7c46a06443c4a33c09afbdf72c73</wd:ID>
+            <wd:ID wd:type="Location_ID">San_Francisco_site</wd:ID>
+        </wd:Location>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="10000 Office of CEO">
+                <wd:ID wd:type="WID">3b122818d7934d1c8c663ddbe1937819</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">10000</wd:ID>
+                <wd:ID wd:type="Cost_Center_Reference_ID">10000</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="Global Modern Services, Inc. (USA)">
+                <wd:ID wd:type="WID">cb550da820584750aae8f807882fa79a</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">GMS_USA</wd:ID>
+                <wd:ID wd:type="Company_Reference_ID">GMS_USA</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+        <wd:Organization_Assignments_group>
+            <wd:Organization wd:Descriptor="Headquarters - Corporate">
+                <wd:ID wd:type="WID">2a99f6b9d77e45d6ba6061cde1575384</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">Headquarters_Region</wd:ID>
+                <wd:ID wd:type="Region_Reference_ID">Headquarters_Region</wd:ID>
+            </wd:Organization>
+        </wd:Organization_Assignments_group>
+    </wd:Report_Entry>
+</wd:Report_Data>

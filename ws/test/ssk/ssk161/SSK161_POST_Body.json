@@ -1,0 +1,15 @@
+{
+	"recipients": {
+		"contacts": [
+			{"id": "3aa5550b7fe348b98d7b5741afc65534"}
+		]
+	},
+	"emailDetail": {
+		"replyTo": "",
+		"subject": "Connect API Test",
+		"body": "from AUnit"
+	},
+	"notificationType": {
+		"id": "cc7f892a924a100009c9501e8c0e000b"
+	}
+}

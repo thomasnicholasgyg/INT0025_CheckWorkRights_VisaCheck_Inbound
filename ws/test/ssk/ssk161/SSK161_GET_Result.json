@@ -1,0 +1,31 @@
+{
+    "descriptor": "Abby Brennan [C]",
+    "id": "6dcb8106e8b74b5aabb1fc3ab8ef2b92",
+    "person": {
+        "email": "abrennan@workday.net",
+        "id": "dc4945b8b8be429e87564e01889c69f5",
+        "phone": "+1773721-9821"
+    },
+    "primaryJob": {
+        "descriptor": "P-00279 Senior Customer Services Representative - Abby Brennan [C]",
+        "id": "65b2c3dfba111009d8fec108ad5f1a53",
+        "jobType": {
+            "Job_Type_Name_ID": "Primary",
+            "descriptor": "Primary"
+        },
+        "location": {
+            "Location_ID": "Chicago",
+            "country": {
+                "ISO_3166-1_Alpha-3_Code": "USA",
+                "descriptor": "United States of America"
+            },
+            "descriptor": "Chicago",
+            "id": "bbe6fe31a26b44d49f42222ca99e0e83"
+        },
+        "supervisoryOrganization": {
+            "Organization_Reference_ID": "SUPERVISORY_Global_Support_USA_Group",
+            "descriptor": "Global Support - USA Group",
+            "id": "dd2061e4fd644a95b4fe2df815462b6b"
+        }
+    }
+}

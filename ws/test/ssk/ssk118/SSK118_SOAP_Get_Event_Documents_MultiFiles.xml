@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Event_Documents_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v20">
+            <wd:Request_References>
+                <wd:Integration_Event_Reference
+                    wd:Descriptor="Integration ESB Invocation (INT6000_Accounting_Journals_Inbound_PostProcess - 07/20/2021, 1:44:48.581 PM (Processing))">
+                    <wd:ID wd:type="WID">72900e662db0019a33b89ed40d008807</wd:ID>
+                    <wd:ID wd:type="Background_Process_Instance_ID"
+                        >INTEGRATION_ESB_INVOCATION-15-4553</wd:ID>
+                </wd:Integration_Event_Reference>
+            </wd:Request_References>
+            <wd:Response_Results>
+                <wd:Total_Results>1</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>1</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Event_Documents>
+                    <wd:Integration_Event_Reference
+                        wd:Descriptor="INT6000_Accounting_Journals_Inbound_PostProcess - 07/20/2021, 1:44:48.581 PM (Processing)">
+                        <wd:ID wd:type="WID">72900e662db001c5b67a60d40d008607</wd:ID>
+                        <wd:ID wd:type="Background_Process_Instance_ID"
+                            >INTEGRATION_EVENT-15-7095</wd:ID>
+                    </wd:Integration_Event_Reference>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="suv_JournalInbound_CSV_07182021.csv">
+                            <wd:ID wd:type="WID">72900e662db0014298ea32d20d002407</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >oms-attachments/566e4c0a-4247-4270-2e2d-2b7b6458420a</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="oms-attachments/566e4c0a-4247-4270-2e2d-2b7b6458420a"
+                            wd:File_Name="suv_JournalInbound_CSV_07182021.csv">
+                            <wd:File_Size>2722</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-08-19T13:44:16.778-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="Retrieved">
+                                <wd:ID wd:type="WID">b2f7dfe1c41a41c89a358318b28d6e1c</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">Retrieved</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Import_Accounting_Journal_Request-header.xml">
+                            <wd:ID wd:type="WID">72900e662db0017ad8b03fd30d004107</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/26486775-3070-4e6d-002b-542770074e4a</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/26486775-3070-4e6d-002b-542770074e4a"
+                            wd:File_Name="Import_Accounting_Journal_Request-header.xml">
+                            <wd:File_Size>1014</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:ID wd:type="WID">72900e662db001b0b31c40d30d004307</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/2b59232f-1b70-4d37-361a-762d6f1f432f</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/2b59232f-1b70-4d37-361a-762d6f1f432f"
+                            wd:File_Name="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:File_Size>1089</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Import_Accounting_Journal_Request-header.xml">
+                            <wd:ID wd:type="WID">72900e662db00145b08740d30d004707</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/1d735a04-4520-4b0b-0470-357c7f20080c</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/1d735a04-4520-4b0b-0470-357c7f20080c"
+                            wd:File_Name="Import_Accounting_Journal_Request-header.xml">
+                            <wd:File_Size>1014</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:ID wd:type="WID">72900e662db001d5b51141d30d004907</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/26116278-5855-4d0c-2922-7f7202071060</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/26116278-5855-4d0c-2922-7f7202071060"
+                            wd:File_Name="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:File_Size>1089</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Import_Accounting_Journal_Request-header.xml">
+                            <wd:ID wd:type="WID">72900e662db00148891842d30d004d07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/2b010d60-5326-4448-0c4b-124b30403b43</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/2b010d60-5326-4448-0c4b-124b30403b43"
+                            wd:File_Name="Import_Accounting_Journal_Request-header.xml">
+                            <wd:File_Size>1014</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:ID wd:type="WID">72900e662db00178655a43d30d004f07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/05373934-7533-4459-1532-0861194d0619</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/05373934-7533-4459-1532-0861194d0619"
+                            wd:File_Name="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:File_Size>1089</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Import_Accounting_Journal_Request-header.xml">
+                            <wd:ID wd:type="WID">72900e662db001f09c2c85d30d006507</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/28343114-7d3f-443b-2b32-1a7449170536</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/28343114-7d3f-443b-2b32-1a7449170536"
+                            wd:File_Name="Import_Accounting_Journal_Request-header.xml">
+                            <wd:File_Size>1014</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:44.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:ID wd:type="WID">72900e662db001a5a97a85d30d006707</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/092c7c72-396b-4511-102c-664a00635104</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/092c7c72-396b-4511-102c-664a00635104"
+                            wd:File_Name="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:File_Size>1089</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:44.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Import_Accounting_Journal_Request-header.xml">
+                            <wd:ID wd:type="WID">72900e662db001960875aed30d007307</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/0b021f3b-124c-4b7b-263a-295c4174310e</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/0b021f3b-124c-4b7b-263a-295c4174310e"
+                            wd:File_Name="Import_Accounting_Journal_Request-header.xml">
+                            <wd:File_Size>1014</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:45.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference
+                            wd:Descriptor="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:ID wd:type="WID">72900e662db00176a7beaed30d007507</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >wws_background_process/79510b1e-505f-4b45-2059-644507302777</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="wws_background_process/79510b1e-505f-4b45-2059-644507302777"
+                            wd:File_Name="Journal_Entry_Line_Replacement_Data-0.xml">
+                            <wd:File_Size>1091</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-22T13:44:45.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                            <wd:Document_Tag_Reference wd:Descriptor="WSBP Document">
+                                <wd:ID wd:type="WID">450fce30501b1000120c8aba9e3f0e49</wd:ID>
+                                <wd:ID wd:type="Workday_Document_Tag_Name">WSBP Document</wd:ID>
+                            </wd:Document_Tag_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="test.csv">
+                            <wd:ID wd:type="WID">72900e662db001e2677df8d20d002a07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/06070344-4c00-4903-3668-5d5d1e4e562d</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/06070344-4c00-4903-3668-5d5d1e4e562d"
+                            wd:File_Name="test.csv">
+                            <wd:File_Size>2722</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Text Document (TXT)">
+                                <wd:ID wd:type="WID">dc72b65a446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">TXT</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2022-01-16T12:44:42.000-08:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ParallelChildFile.txt">
+                            <wd:ID wd:type="WID">72900e662db001bb7e8b0cd30d002d07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/76431859-7375-4418-2e74-367b3b451d2c</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/76431859-7375-4418-2e74-367b3b451d2c"
+                            wd:File_Name="ParallelChildFile.txt">
+                            <wd:File_Size>833</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Text Document (TXT)">
+                                <wd:ID wd:type="WID">dc72b65a446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">TXT</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:42.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ParallelChildFile.txt">
+                            <wd:ID wd:type="WID">72900e662db001d2a0950cd30d002e07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/5f1c135c-7c69-4844-3079-1f5d3c353d14</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/5f1c135c-7c69-4844-3079-1f5d3c353d14"
+                            wd:File_Name="ParallelChildFile.txt">
+                            <wd:File_Size>833</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Text Document (TXT)">
+                                <wd:ID wd:type="WID">dc72b65a446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">TXT</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:42.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ParallelChildFile.txt">
+                            <wd:ID wd:type="WID">72900e662db001ab6e380dd30d003007</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/6d605c57-7726-4166-0c76-120b2451720d</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/6d605c57-7726-4166-0c76-120b2451720d"
+                            wd:File_Name="ParallelChildFile.txt">
+                            <wd:File_Size>833</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Text Document (TXT)">
+                                <wd:ID wd:type="WID">dc72b65a446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">TXT</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:42.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="test.xml">
+                            <wd:ID wd:type="WID">72900e662db0019ca5b31ed30d003307</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/096c7a42-750d-4e36-2b3d-731477052047</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/096c7a42-750d-4e36-2b3d-731477052047"
+                            wd:File_Name="test.xml">
+                            <wd:File_Size>1430</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="test.xml">
+                            <wd:ID wd:type="WID">72900e662db001cd28b81ed30d003407</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/52407c37-143b-463e-1476-7e551b3e2b59</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/52407c37-143b-463e-1476-7e551b3e2b59"
+                            wd:File_Name="test.xml">
+                            <wd:File_Size>1430</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="test.xml">
+                            <wd:ID wd:type="WID">72900e662db0010320341fd30d003607</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/4a341515-7634-4865-0838-425745144905</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/4a341515-7634-4865-0838-425745144905"
+                            wd:File_Name="test.xml">
+                            <wd:File_Size>1430</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="newTest.xml">
+                            <wd:ID wd:type="WID">72900e662db001f7dff830d30d003907</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/2f4a1229-5245-4269-142a-29261c3c715d</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/2f4a1229-5245-4269-142a-29261c3c715d"
+                            wd:File_Name="newTest.xml">
+                            <wd:File_Size>2710</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="newTest.xml">
+                            <wd:ID wd:type="WID">72900e662db0015d330631d30d003a07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/172e027f-5d05-4112-294d-435f5f357546</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/172e027f-5d05-4112-294d-435f5f357546"
+                            wd:File_Name="newTest.xml">
+                            <wd:File_Size>2710</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="newTest.xml">
+                            <wd:ID wd:type="WID">72900e662db0014762ae31d30d003c07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/044d3457-510a-474c-2714-1b4f7e7c681e</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/044d3457-510a-474c-2714-1b4f7e7c681e"
+                            wd:File_Name="newTest.xml">
+                            <wd:File_Size>2710</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ParallelChildFile.txt">
+                            <wd:ID wd:type="WID">72900e662db00176de183dd30d003e07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/6a783649-716d-4875-1364-241036484a39</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/6a783649-716d-4875-1364-241036484a39"
+                            wd:File_Name="ParallelChildFile.txt">
+                            <wd:File_Size>833</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/csv - mime_plain">
+                                <wd:ID wd:type="WID">bcfbdfdd2f274fa7b3de5d897c94a43d</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/csv</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Text Document (TXT)">
+                                <wd:ID wd:type="WID">dc72b65a446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">TXT</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:42.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="test.xml">
+                            <wd:ID wd:type="WID">72900e662db001c0eca357d30d005807</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/1d04245c-3156-4009-3e16-2d122109337d</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/1d04245c-3156-4009-3e16-2d122109337d"
+                            wd:File_Name="test.xml">
+                            <wd:File_Size>1430</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="text/xml - mime_xml">
+                                <wd:ID wd:type="WID">d9ae655e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">text/xml</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="XML Document (XML)">
+                                <wd:ID wd:type="WID">dc72b740446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">XML</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-07-27T13:44:43.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ImportRequests.zip">
+                            <wd:ID wd:type="WID">72900e662db001a703796ad30d005a07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/21500d2f-1442-4176-063e-344938211d4e</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/21500d2f-1442-4176-063e-344938211d4e"
+                            wd:File_Name="ImportRequests.zip">
+                            <wd:File_Size>687</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="application/zip - mime_zip">
+                                <wd:ID wd:type="WID">d9ae4448446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">application/zip</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Compressed Archive (ZIP)">
+                                <wd:ID wd:type="WID">c80e3276ce5a4f998be20fae087b30c5</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">ZIP</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-08-19T13:44:44.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ImportRequests.zip">
+                            <wd:ID wd:type="WID">72900e662db001c0986f70d30d005c07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/33574522-7a07-412c-2c32-197b042c6547</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/33574522-7a07-412c-2c32-197b042c6547"
+                            wd:File_Name="ImportRequests.zip">
+                            <wd:File_Size>688</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="application/zip - mime_zip">
+                                <wd:ID wd:type="WID">d9ae4448446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">application/zip</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Compressed Archive (ZIP)">
+                                <wd:ID wd:type="WID">c80e3276ce5a4f998be20fae087b30c5</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">ZIP</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-08-19T13:44:44.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                    <wd:Repository_Document>
+                        <wd:Repository_Document_Reference wd:Descriptor="ImportRequests.zip">
+                            <wd:ID wd:type="WID">72900e662db0019d74da71d30d005e07</wd:ID>
+                            <wd:ID wd:type="Document_ID"
+                                >cloud/7c465452-0c6c-493b-362b-173042292a1b</wd:ID>
+                        </wd:Repository_Document_Reference>
+                        <wd:Repository_Document_Data
+                            wd:Document_ID="cloud/7c465452-0c6c-493b-362b-173042292a1b"
+                            wd:File_Name="ImportRequests.zip">
+                            <wd:File_Size>688</wd:File_Size>
+                            <wd:Content_Type_Reference wd:Descriptor="application/zip - mime_zip">
+                                <wd:ID wd:type="WID">d9ae4448446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Content_Type_ID">application/zip</wd:ID>
+                            </wd:Content_Type_Reference>
+                            <wd:Document_Type_Reference wd:Descriptor="Compressed Archive (ZIP)">
+                                <wd:ID wd:type="WID">c80e3276ce5a4f998be20fae087b30c5</wd:ID>
+                                <wd:ID wd:type="Document_Type_ID">ZIP</wd:ID>
+                            </wd:Document_Type_Reference>
+                            <wd:Expiration_Timestamp>2021-08-19T13:44:44.000-07:00</wd:Expiration_Timestamp>
+                            <wd:Owner_Reference wd:Descriptor="SuperUser / Developer Generic User">
+                                <wd:ID wd:type="WID">34cd5fca15dd41d698b0667011e4c9bd</wd:ID>
+                                <wd:ID wd:type="System_User_ID">SuperUser</wd:ID>
+                                <wd:ID wd:type="WorkdayUserName">SuperUser</wd:ID>
+                            </wd:Owner_Reference>
+                        </wd:Repository_Document_Data>
+                    </wd:Repository_Document>
+                </wd:Event_Documents>
+            </wd:Response_Data>
+        </wd:Get_Event_Documents_Response>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<int0025:FlexLogs xmlns:int0025="urn:com.workday.custom.int0025.common">
+	<int0025:FlexLog 
+		int0025:logName="log-single"
+		int0025:maxEntriesPerFile="200">
+		<int0025:Field>
+			<int0025:Parameter>inSummary</int0025:Parameter>
+			<int0025:Header>Summary</int0025:Header>
+		</int0025:Field>
+		<int0025:Field>
+			<int0025:Parameter>inDetail</int0025:Parameter>
+			<int0025:Header>Detail</int0025:Header>
+		</int0025:Field>
+		<int0025:Field>
+			<int0025:Parameter>inNumber</int0025:Parameter>
+			<int0025:Header>Number</int0025:Header>
+		</int0025:Field>
+	</int0025:FlexLog>
+</int0025:FlexLogs>

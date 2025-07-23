@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:partner.soap.sforce.com">
+   <soapenv:Header>
+      <LimitInfoHeader>
+         <limitInfo>
+            <current>964531</current>
+            <limit>999999</limit>
+            <type>API REQUESTS</type>
+         </limitInfo>
+      </LimitInfoHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <updateResponse>
+         <result>
+            <id>123456789</id>
+            <success>true</success>
+         </result>
+         <result>
+            <id>1111112222</id>
+            <success>true</success>
+         </result>
+      </updateResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,17 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <SOAP-ENV:Fault xmlns:wd="urn:com.workday/bsvc">
+         <faultcode>SOAP-ENV:Client.validationError</faultcode>
+         <faultstring>Validation error occurred. Element not found=Import_Eligible_Earnings_Request-urn:com.workday/bsvc</faultstring>
+         <detail>
+            <wd:Validation_Fault>
+               <wd:Validation_Error>
+                  <wd:Message>Element not found=Import_Eligible_Earnings_Request-urn:com.workday/bsvc</wd:Message>
+                  <wd:Detail_Message/>
+                  <wd:Xpath/>
+               </wd:Validation_Error>
+            </wd:Validation_Fault>
+         </detail>
+      </SOAP-ENV:Fault>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

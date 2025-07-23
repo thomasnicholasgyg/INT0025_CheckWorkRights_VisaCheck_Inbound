@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="3.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tube="java:com.capeclear.mediation.impl.cc.MediationTube"
+    xmlns:ctx="java:com.capeclear.mediation.MediationContext"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jmap="java:java.util.Map"
+    xmlns:jt="http://saxon.sf.net/java-type"
+	xmlns:cl="java:com.workday.custom.int0025.int0025112.CloudLogEntry" 
+    xmlns:this="urn:this">
+    
+    <xsl:param name="inStoreDataAs" as="xs:string"/>
+    <xsl:param name="inQueryToEntry" as="xs:string"/>
+    <xsl:param name="inQueryToKey" as="xs:string"/>
+    <xsl:param name="inQueryToValue" as="xs:string"/>
+    <xsl:param name="localMapPropertyName" as="xs:string"/>
+    <xsl:param name="inEmptyValueIsError" as="xs:boolean" select="true()"/>
+    
+    <!-- This stylesheet is designed to be streamable so that only one record is held in memory at any one time -->
+    <xsl:mode streamable="yes" on-no-match="shallow-skip"/>
+    <xsl:mode streamable="no" name="in-memory"/>
+    
+    <!-- Obtain the current MediationContext in use in the assembly -->
+    <xsl:variable name="ctx" select="tube:getCurrentMediationContext()"/>
+    
+    <!-- Retrieve the Java Map stored in the context property named HashMap -->
+    <xsl:variable name="Map" select="ctx:getProperty($ctx, $localMapPropertyName)" as="jt:java.util.Map"/>
+    
+    <!-- Based on the configuration of the StoreDataAs property determine the function which will be used to store the values in the map.  Using the function reference allows us to avoid the inefficiency of comparing the value of StoreDataAs for each entry -->
+    <xsl:variable name="StoreDataInMap" select="if ( $inStoreDataAs = 'SimpleString') then this:StoreDataAsSimpleString#2 else if ($inStoreDataAs = 'DOM') then this:StoreDataAsDOM#2 else this:StoreDataAsXMLString#2" />
+    
+    <xsl:template match="/">
+        <MapHelper>
+            <xsl:if test="$inStoreDataAs = 'XMLString'">
+				<xsl:message><xsl:value-of select="cl:createMessage('warn', 'Warning generated during loading of Java Map', 'Map entries are configured to be stored as XMLStrings.  Using this will require that data is re-parsed every time the data is used.  This could impose a significant runtime performance overhead if each entry is, on average, accessed more than once.', '', '', 'LoadMap_105', '10501', '')"/></xsl:message>
+            </xsl:if>
+            <xsl:if test="$inStoreDataAs = 'DOM'">
+				<xsl:message><xsl:value-of select="cl:createMessage('warn', 'Warning generated during loading of Java Map', 'Map entries are configured to be stored as an XML DOM.  Using this option may require large amounts of memory.  Consider transforming the data before storage so as to only store the minimum required.  For very large documents consider moving to a custom Java solution with optimized data storage.', '', '', 'LoadMap_105', '10502', '')"/></xsl:message>
+            </xsl:if>
+            
+            <!-- Now process the input file.  The EntryFilter variable can then be optionally used to only select those entries matching that value.  The filter can only navigate the descendant axis since only the node and and descendants returned by the QueryToEntry expression are brought into memory -->
+            <xsl:apply-templates select="/*/*/copy-of()" mode="in-memory"/>    		
+        </MapHelper>
+    </xsl:template>
+    
+    <!-- Process each entry -->
+    <xsl:template match="*" mode="in-memory">
+        <xsl:variable name="key"	select="*:External_ID"/>
+        <xsl:variable name="value"	select="*:Employee_ID"/>
+        
+        <xsl:choose>
+            <!-- If we've no key then we have no option but to generate an error -->
+            <xsl:when test="not(exists($key))">
+				<xsl:message><xsl:value-of select="cl:createMessage('error', 'No key found during loading of Java Map', concat('No matching key found in record at ', $inQueryToKey, '.  See additional details for the specific record.'), '', '', 'LoadMap_105', '10503', normalize-space(serialize(.)))"/></xsl:message>
+            </xsl:when>
+            
+            <!-- If we've no value and we're configured to treat no value as an error then output that error, otherwise we'll put the empty value into the map -->
+            <xsl:when test="not(exists($value)) and $inEmptyValueIsError">
+				<xsl:message><xsl:value-of select="cl:createMessage('error', 'Key has no value while loading Java Map', concat('No matching value found in record at ', $inQueryToValue, '.  See additional details for the specific record.'), $key, '', 'LoadMap_105', '10504', normalize-space(serialize(.)))"/></xsl:message>
+            </xsl:when>
+            
+            <!-- Store the value in the map -->
+            <xsl:otherwise>
+                <xsl:value-of select="$StoreDataInMap($key,$value)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:function name="this:StoreDataAsSimpleString">
+        <xsl:param name="key" as="xs:string"/>
+        <xsl:param name="value" as="item()?"/>
+        <xsl:value-of select="jmap:put($Map, string($key), string($value))"/>
+    </xsl:function>
+    
+    <xsl:function name="this:StoreDataAsXMLString">
+        <xsl:param name="key" as="xs:string"/>
+        <xsl:param name="value" as="item()?"/>
+        <xsl:value-of select="jmap:put($Map, string($key), serialize($value))"/>
+    </xsl:function>
+    
+    <!-- 
+    	This function is provided for future expansion.  There is no native way to export DOM information through Saxon Java extension functions such that the DOM (or NodeInfo) information can be processed
+    	elsewhere in the assembly since the Saxon Processor which was used to produce this information is not available to us outside of the XsltPlus step.
+    	
+    	In future, access to parsed DOM of the data will be provided through a Java extension function and a DOM implementation optimized for Workday-like data and map configurations.
+     -->
+    <xsl:function name="this:StoreDataAsDOM" >
+        <xsl:param name="key" as="xs:string"/>
+        <xsl:param name="value" as="item()?"/>
+		<xsl:value-of select="jmap:put($Map, string($key), $value)"/>
+		<xsl:message terminate="yes" select="'Storage of DOM values in the map are not yet implemented'"/>
+	</xsl:function>
+</xsl:stylesheet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wd="urn:com.workday/bsvc">
+   <env:Body>
+      <wd:Request_One-Time_Payment_Request wd:version="v39.0">
+         <wd:Business_Process_Parameters>
+            <wd:Auto_Complete>1</wd:Auto_Complete>
+            <wd:Run_Now>1</wd:Run_Now>
+         </wd:Business_Process_Parameters>
+         <wd:One-Time_Payment_Data>
+            <wd:Employee_Reference>
+               <wd:ID wd:type="Employee_ID">21001</wd:ID>
+            </wd:Employee_Reference>
+            <wd:Effective_Date>2021-03-22-08:00</wd:Effective_Date>
+            <wd:One-Time_Payment_Sub_Data>
+               <wd:One_Time_Payment_Plan_Reference>
+                  <wd:ID wd:type="OTP_PLAN_ID">SomePlanId</wd:ID>
+               </wd:One_Time_Payment_Plan_Reference>
+               <wd:Amount>100</wd:Amount>
+            </wd:One-Time_Payment_Sub_Data>
+         </wd:One-Time_Payment_Data>
+      </wd:Request_One-Time_Payment_Request>
+   </env:Body>
+</env:Envelope>

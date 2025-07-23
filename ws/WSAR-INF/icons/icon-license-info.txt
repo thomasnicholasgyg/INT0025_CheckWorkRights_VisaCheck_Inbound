@@ -1,0 +1,3 @@
+Icon files in SSK have been licensed under one or more of the following licenses:
+
+http://creativecommons.org/licenses/by/3.0/us

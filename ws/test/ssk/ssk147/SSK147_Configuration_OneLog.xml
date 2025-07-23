@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<int0025:FlexLogs xmlns:int0025="urn:com.workday.custom.int0025.common">
+	<int0025:FlexLog 
+		int0025:logName="flex-log" 
+		int0025:filename="filename1"
+		int0025:maxEntriesPerFile="32" 
+		int0025:retention="42" 
+		int0025:separator="~" 
+		int0025:aggregationDocumentTag="INT_Log_Aggregator" 
+		int0025:aggregationWorksheet="TheLog"
+		int0025:deliverable="true">
+		<int0025:Field>
+			<int0025:Parameter>inLogMessage1</int0025:Parameter>
+			<int0025:Header>Summary1</int0025:Header>
+		</int0025:Field>
+		<int0025:Field>
+			<int0025:Parameter>inLogMessageDetail1</int0025:Parameter>
+			<int0025:Header>Details1</int0025:Header>
+		</int0025:Field>
+	</int0025:FlexLog>
+</int0025:FlexLogs>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:wd="urn:com.workday/bsvc"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <env:Header>
+        <wd:Workday_Common_Header>
+            <wd:Include_Reference_Descriptors_In_Response>true</wd:Include_Reference_Descriptors_In_Response>
+        </wd:Workday_Common_Header>
+    </env:Header>
+    <env:Body>
+        <wd:Launch_Integration_Event_Request
+            wd:Debug_Mode="false"
+            wd:version="v39.0">
+            <wd:Integration_System_Reference>
+                <wd:ID wd:type="Integration_System_ID">INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere</wd:ID>
+            </wd:Integration_System_Reference>
+            <wd:Integration_Launch_Parameter_Data>
+                <wd:Launch_Parameter_Reference>
+                    <wd:ID
+                        wd:type="Launch_Parameter_Name"
+                        wd:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere"
+                        wd:parent_type="Integration_System_ID">Run in Validation Mode</wd:ID>
+                </wd:Launch_Parameter_Reference>
+                <wd:Launch_Parameter_Value_Data>
+                    <wd:Boolean>false</wd:Boolean>
+                </wd:Launch_Parameter_Value_Data>
+            </wd:Integration_Launch_Parameter_Data>
+            <wd:Integration_Launch_Parameter_Data>
+                <wd:Launch_Parameter_Reference>
+                    <wd:ID
+                        wd:type="Launch_Parameter_Name"
+                        wd:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere"
+                        wd:parent_type="Integration_System_ID">Run with Debug Logging</wd:ID>
+                </wd:Launch_Parameter_Reference>
+                <wd:Launch_Parameter_Value_Data>
+                    <wd:Boolean>false</wd:Boolean>
+                </wd:Launch_Parameter_Value_Data>
+            </wd:Integration_Launch_Parameter_Data>
+            <wd:Integration_Launch_Parameter_Data>
+                <wd:Launch_Parameter_Reference>
+                    <wd:ID
+                        wd:type="Launch_Parameter_Name"
+                        wd:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere"
+                        wd:parent_type="Integration_System_ID">Source Integration Event WID (Build and Debug Only)</wd:ID>
+                </wd:Launch_Parameter_Reference>
+                <wd:Launch_Parameter_Value_Data>
+                    <wd:Text/>
+                </wd:Launch_Parameter_Value_Data>
+            </wd:Integration_Launch_Parameter_Data>
+        </wd:Launch_Integration_Event_Request>
+    </env:Body>
+</env:Envelope>

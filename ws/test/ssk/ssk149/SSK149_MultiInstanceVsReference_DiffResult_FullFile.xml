@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data 
+	xmlns:wd="whatever"
+    xmlns:diff="urn:com.workday/reportdiff">
+	<wd:Report_Entry>
+		<wd:WID>widPosition</wd:WID>
+		<wd:positionID>idPosition</wd:positionID>
+		<wd:jobProfile wd:Descriptor="The Job">
+			<wd:ID wd:type="Job_Profile_ID">idJobProfile</wd:ID>
+			<wd:ID wd:type="WID">widJob</wd:ID>
+		</wd:jobProfile>
+		<wd:organizationAssignments wd:Descriptor="Org 1">
+			<wd:ID wd:type="WID">widOrg1</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">idOrg1</wd:ID>
+		</wd:organizationAssignments>
+		<wd:organizationAssignments wd:Descriptor="Org 2">
+			<wd:ID wd:type="WID">widOrg2</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">idOrg2</wd:ID>
+		</wd:organizationAssignments>
+		<wd:positionManagementGroup>
+			<wd:organizationWID>widOrg</wd:organizationWID>
+			<wd:organizationRefID>idOrg</wd:organizationRefID>
+			<wd:subordinateOrganizations wd:Descriptor="Org Sub 1">
+				<wd:ID wd:type="WID">widOrgSub1</wd:ID>
+				<wd:ID wd:type="Organization_Reference_ID">idOrgSub1</wd:ID>
+			</wd:subordinateOrganizations>
+			<wd:subordinateOrganizations wd:Descriptor="Org Sub 2" diff:isAdded="true">
+				<wd:ID diff:isAdded="true" wd:type="WID">widOrgSub2</wd:ID>
+				<wd:ID diff:isAdded="true" wd:type="Organization_Reference_ID">idOrgSub2</wd:ID>
+			</wd:subordinateOrganizations>
+			<wd:subordinateOrganizations wd:Descriptor="Org Sub 3" diff:isAdded="true">
+				<wd:ID diff:isAdded="true" wd:type="WID">widOrgSub3</wd:ID>
+				<wd:ID diff:isAdded="true" wd:type="Organization_Reference_ID">idOrgSub3</wd:ID>
+			</wd:subordinateOrganizations>
+		</wd:positionManagementGroup>
+	</wd:Report_Entry>
+</wd:Report_Data>

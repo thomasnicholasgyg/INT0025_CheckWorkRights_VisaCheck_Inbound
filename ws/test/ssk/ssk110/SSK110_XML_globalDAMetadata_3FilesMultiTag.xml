@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Documents>
+	<Document id="cc-retrieve/50684860-7622-412a-3014-4f092f012129" wid="f44d0b2fbb21017f8bf72ce7ce3bd771">
+		<Collection>cc-retrieve</Collection>
+    	<EntryID>50684860-7622-412a-3014-4f092f012129</EntryID>
+		<Filename>vendor-file1.xml</Filename>
+    	<Filesize>53610</Filesize>
+    	<Mimetype>text/xml</Mimetype>
+    	<Tag>Retrieved</Tag>
+    	<Tag>Tag_SSK110</Tag>
+    	<Tag>Tag_OtherTag</Tag>
+	</Document>
+	<Document id="cc-retrieve/7277537f-4505-4b38-243c-242a3f21220d" wid="f44d0b2fbb210178a44999eece3be271">
+		<Collection>cc-retrieve</Collection>
+    	<EntryID>7277537f-4505-4b38-243c-242a3f21220d</EntryID>
+		<Filename>vendor-file2.xml</Filename>
+    	<Filesize>53480</Filesize>
+    	<Mimetype>text/xml</Mimetype>
+    	<Tag>Retrieved</Tag>
+	</Document>
+	<Document id="cc-retrieve/4d5b7233-586b-444b-3d4c-215811332815" wid="f44d0b2fbb21018678eb3df6ce3be671">
+		<Collection>cc-retrieve</Collection>
+    	<EntryID>4d5b7233-586b-444b-3d4c-215811332815</EntryID>
+		<Filename>vendor-file3.xml</Filename>
+    	<Filesize>53321</Filesize>
+    	<Mimetype>text/xml</Mimetype>
+    	<Tag>Retrieved</Tag>
+	</Document>
+</Documents>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <SOAP-ENV:Fault xmlns:wd="urn:com.workday/bsvc">
+         <faultcode>SOAP-ENV:Client.validationError</faultcode>
+         <faultstring>Validation error occurred. Invalid ID value.  'A Text Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</faultstring>
+         <detail>
+            <wd:Validation_Fault>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A Text Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A Text Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[3]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A Number Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A Number Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[4]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A DateTime Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A DateTime Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[5]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A Date Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A Date Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[6]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A Single Instance Reference' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A Single Instance Reference' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[7]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'A Multi Instance Reference' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'A Multi Instance Reference' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[8]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>Invalid ID value.  'An Enumeration Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Message>
+                  <wd:Detail_Message>Invalid ID value.  'An Enumeration Parameter' is not a valid ID value for type = 'Launch_Parameter_Name'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[9]/bsvc:Launch_Parameter_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+               <wd:Validation_Error>
+                  <wd:Message>'SSKEnumType' is not a valid  value for attribute  parent_id when   parent_type='Integration_Enumeration_Definition_ID'</wd:Message>
+                  <wd:Detail_Message>'SSKEnumType' is not a valid  value for attribute  parent_id when   parent_type='Integration_Enumeration_Definition_ID'</wd:Detail_Message>
+                  <wd:Xpath>/bsvc:Launch_Integration_Event_Request[1]/bsvc:Integration_Launch_Parameter_Data[9]/bsvc:Launch_Parameter_Value_Data[1]/bsvc:Instance_Reference[1]</wd:Xpath>
+               </wd:Validation_Error>
+            </wd:Validation_Fault>
+         </detail>
+      </SOAP-ENV:Fault>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

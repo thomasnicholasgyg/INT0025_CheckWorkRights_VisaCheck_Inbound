@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data
+    xmlns:wd="urn:com.workday.report/NestedMultiValue"
+    xmlns:diff="urn:com.workday/reportdiff">
+    <wd:Report_Entry>
+        <wd:WID>abcdef0123456789abcdef0123450001</wd:WID>
+        <wd:positionID>P10001</wd:positionID>
+        <wd:availabilityDate>2021-11-29-08:00</wd:availabilityDate>
+        <wd:earliestHireDate>2021-11-29-08:00</wd:earliestHireDate>
+        <wd:isFilled>1</wd:isFilled>
+        <wd:isOpen>0</wd:isOpen>
+        <wd:Staffing_Status wd:Descriptor="Filled">
+            <wd:ID wd:type="WID">abcdef0123456789abcdef0123450002</wd:ID>
+        </wd:Staffing_Status>
+        <wd:jobProfile wd:Descriptor="PROFILE-01">
+            <wd:ID wd:type="WID">abcdef0123456789abcdef0123450003</wd:ID>
+            <wd:ID wd:type="Job_Profile_ID">PROFILE-01</wd:ID>
+        </wd:jobProfile>
+        <wd:organizationAssignments wd:Descriptor="ORG-008">
+            <wd:ID wd:type="WID">abcdef0123456789abcdef0123450004</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">ORG-008</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">ORG-008</wd:ID>
+        </wd:organizationAssignments>
+        <wd:organizationAssignments wd:Descriptor="ORG-007">
+            <wd:ID wd:type="WID">abcdef0123456789abcdef0123450005</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">ORG-007</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">ORG-007</wd:ID>
+        </wd:organizationAssignments>
+        <wd:organizationAssignments wd:Descriptor="ORG-006">
+            <wd:ID wd:type="WID">abcdef0123456789abcdef0123450006</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">ORG-006</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">ORG-006</wd:ID>
+        </wd:organizationAssignments>
+        <wd:positionManagementGroup>
+            <wd:workdayID>abcdef0123456789abcdef0123450001</wd:workdayID>
+            <wd:effectiveDate>2021-11-29-08:00</wd:effectiveDate>
+            <wd:createdDate>2021-11-29-08:00</wd:createdDate>
+            <wd:isManager>0</wd:isManager>
+            <wd:Management_Level wd:Descriptor="LEVEL-01">
+                <wd:ID wd:type="WID">abcdef0123456789abcdef0123450007</wd:ID>
+                <wd:ID wd:type="Management_Level_ID">LEVEL-01</wd:ID>
+            </wd:Management_Level>
+            <wd:workerWID>abcdef0123456789abcdef0123450008</wd:workerWID>
+            <wd:workerRefID>21001</wd:workerRefID>
+            <wd:organizationWID>abcdef0123456789abcdef0123450009</wd:organizationWID>
+            <wd:organizationRefID>SUP-21001</wd:organizationRefID>
+            <wd:subordinateOrganizations wd:Descriptor="ORG-001">
+                <wd:ID wd:type="WID">abcdef0123456789abcdef0123450010</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">ORG-001</wd:ID>
+            </wd:subordinateOrganizations>
+            <wd:subordinateOrganizations wd:Descriptor="ORG-002">
+                <wd:ID wd:type="WID">abcdef0123456789abcdef0123450011</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">ORG-002</wd:ID>
+            </wd:subordinateOrganizations>
+            <wd:subordinateOrganizations wd:Descriptor="ORG-003">
+                <wd:ID wd:type="WID">abcdef0123456789abcdef0123450012</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">ORG-003</wd:ID>
+            </wd:subordinateOrganizations>
+            <wd:subordinateOrganizations wd:Descriptor="ORG-004">
+                <wd:ID wd:type="WID">abcdef0123456789abcdef0123450013</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">ORG-004</wd:ID>
+            </wd:subordinateOrganizations>
+            <wd:subordinateOrganizations wd:Descriptor="ORG-005" diff:isAdded="true">
+                <wd:ID diff:isAdded="true" wd:type="WID">abcdef0123456789abcdef0123450014</wd:ID>
+                <wd:ID diff:isAdded="true" wd:type="Organization_Reference_ID">ORG-005</wd:ID>
+            </wd:subordinateOrganizations>
+        </wd:positionManagementGroup>
+    </wd:Report_Entry>
+</wd:Report_Data>

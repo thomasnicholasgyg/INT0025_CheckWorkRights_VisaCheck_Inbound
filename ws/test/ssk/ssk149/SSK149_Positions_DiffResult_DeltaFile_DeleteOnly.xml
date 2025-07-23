@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/TopOfStack_Tapestry_ObjectData" xmlns:diff="urn:com.workday/reportdiff">
+	<wd:Report_Entry diff:isDeleted="true">
+		<wd:Position_ID diff:isDeleted="true">P-00003</wd:Position_ID>
+		<wd:Position diff:isDeleted="true">
+			<wd:Position_Job_Posting_Title diff:isDeleted="true">Chief Financial Officer</wd:Position_Job_Posting_Title>
+			<wd:Position_Status wd:Descriptor="Filled" diff:isDeleted="true">
+				<wd:ID wd:type="WID" diff:isDeleted="true">5775394cfee24ea581a26048297fc148</wd:ID>
+			</wd:Position_Status>
+			<wd:Position_Availability_Date diff:isDeleted="true">2000-01-01-08:00</wd:Position_Availability_Date>
+			<wd:Position_Earliest_Hire_Date diff:isDeleted="true">2000-01-01-08:00</wd:Position_Earliest_Hire_Date>
+			<wd:Position_Time_Type_Ref_ID diff:isDeleted="true">264.2</wd:Position_Time_Type_Ref_ID>
+			<wd:Position_Time_Type_Name wd:Descriptor="Full time" diff:isDeleted="true">
+				<wd:ID wd:type="WID" diff:isDeleted="true">900fa8d9ae6f45a0a788545a85878f40</wd:ID>
+				<wd:ID wd:type="Position_Time_Type_ID" diff:isDeleted="true">Full_time</wd:ID>
+			</wd:Position_Time_Type_Name>
+			<wd:Position_Worker_Subtype_Ref_ID wd:Descriptor="Regular" diff:isDeleted="true">
+				<wd:ID wd:type="WID" diff:isDeleted="true">9459f5e6f1084433b767c7901ec04416</wd:ID>
+				<wd:ID wd:type="Employee_Type_ID" diff:isDeleted="true">REGULAR</wd:ID>
+			</wd:Position_Worker_Subtype_Ref_ID>
+			<wd:Position_Company_Name diff:isDeleted="true">Global Modern Services, Inc. (USA)</wd:Position_Company_Name>
+			<wd:Position_Cost_Center_Ref_ID diff:isDeleted="true">50000</wd:Position_Cost_Center_Ref_ID>
+			<wd:Position_Cost_Center_Name diff:isDeleted="true">Office of CFO</wd:Position_Cost_Center_Name>
+		</wd:Position>
+		<wd:Location diff:isDeleted="true">
+			<wd:Position_Location_Ref_ID diff:isDeleted="true">216.2</wd:Position_Location_Ref_ID>
+			<wd:Position_Location_Name diff:isDeleted="true">New York</wd:Position_Location_Name>
+		</wd:Location>
+		<wd:Job_Profile diff:isDeleted="true">
+			<wd:Position_Job_Profile_Ref_ID diff:isDeleted="true">27000</wd:Position_Job_Profile_Ref_ID>
+			<wd:Position_Job_Profile_Name diff:isDeleted="true">Chief Financial Officer</wd:Position_Job_Profile_Name>
+		</wd:Job_Profile>
+		<wd:Hiring_Restrictions_-_Worker_Type diff:isDeleted="true">
+			<wd:Position_Worker_Type_Ref_ID diff:isDeleted="true">EE</wd:Position_Worker_Type_Ref_ID>
+		</wd:Hiring_Restrictions_-_Worker_Type>
+		<wd:Position_or_Hiring_Restrictions diff:isDeleted="true">
+			<wd:Position_Worker_Type_Name wd:Descriptor="Employee" diff:isDeleted="true">
+				<wd:ID wd:type="WID" diff:isDeleted="true">d588c41a446c11de98360015c5e6daf6</wd:ID>
+				<wd:ID wd:type="Worker_Type_ID" diff:isDeleted="true">EE</wd:ID>
+			</wd:Position_Worker_Type_Name>
+		</wd:Position_or_Hiring_Restrictions>
+		<wd:Supervisory_Organization diff:isDeleted="true">
+			<wd:Position_Supervisory_Organization_Ref_ID diff:isDeleted="true">2500.103</wd:Position_Supervisory_Organization_Ref_ID>
+			<wd:Position_Supervisory_Organization_Name diff:isDeleted="true">Executive Management</wd:Position_Supervisory_Organization_Name>
+		</wd:Supervisory_Organization>
+		<wd:Manager_Supervisory_Organization diff:isDeleted="true">
+			<wd:Position_Supervisory_Organization_Manager_DSID diff:isDeleted="true">smorgan</wd:Position_Supervisory_Organization_Manager_DSID>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_First_Name diff:isDeleted="true">Steve</wd:Position_Supervisory_Organization_Manager_Preferred_First_Name>
+			<wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name diff:isDeleted="true">Morgan</wd:Position_Supervisory_Organization_Manager_Preferred_Last_Name>
+		</wd:Manager_Supervisory_Organization>
+	</wd:Report_Entry>
+</wd:Report_Data>

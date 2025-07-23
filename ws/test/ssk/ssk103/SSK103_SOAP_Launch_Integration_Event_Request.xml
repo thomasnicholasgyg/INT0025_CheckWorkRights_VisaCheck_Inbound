@@ -1,0 +1,98 @@
+<soapenv:Envelope xmlns:bsvc="urn:com.workday/bsvc" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header>
+      <bsvc:Workday_Common_Header>
+         <bsvc:Include_Reference_Descriptors_In_Response>true</bsvc:Include_Reference_Descriptors_In_Response>
+      </bsvc:Workday_Common_Header>
+   </soapenv:Header>
+   <soapenv:Body>
+      <bsvc:Launch_Integration_Event_Request bsvc:Debug_Mode="false" bsvc:version="v39.0">
+         <bsvc:Integration_System_Reference>
+            <bsvc:ID bsvc:type="Integration_System_ID">INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere</bsvc:ID>
+         </bsvc:Integration_System_Reference>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">Run in Validation Mode</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Boolean>0</bsvc:Boolean>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">Run with Debug Logging</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Boolean>0</bsvc:Boolean>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A Text Parameter</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Text>some text value</bsvc:Text>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A Number Parameter</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Numeric>501</bsvc:Numeric>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A DateTime Parameter</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:DateTime>2019-08-31T20:57:10-04:00</bsvc:DateTime>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A Date Parameter</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Date>2019-08-31-04:00</bsvc:Date>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A Single Instance Reference</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Instance_Reference>
+                  <bsvc:ID bsvc:type="Employee_ID">21001</bsvc:ID>
+               </bsvc:Instance_Reference>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">A Multi Instance Reference</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Instance_Reference>
+                  <bsvc:ID bsvc:type="Employee_ID">21002</bsvc:ID>
+               </bsvc:Instance_Reference>
+               <bsvc:Instance_Reference>
+                  <bsvc:ID bsvc:type="Employee_ID">21003</bsvc:ID>
+               </bsvc:Instance_Reference>
+               <bsvc:Instance_Reference>
+                  <bsvc:ID bsvc:type="Employee_ID">21004</bsvc:ID>
+               </bsvc:Instance_Reference>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+         <bsvc:Integration_Launch_Parameter_Data>
+            <bsvc:Launch_Parameter_Reference>
+               <bsvc:ID bsvc:parent_id="INT0025_CheckWorkRights_VisaCheck_Inbound_Collection/INT0025_CheckWorkRights_VisaCheck_Inbound/StartHere" bsvc:parent_type="Integration_System_ID" bsvc:type="Launch_Parameter_Name">An Enumeration Parameter</bsvc:ID>
+            </bsvc:Launch_Parameter_Reference>
+            <bsvc:Launch_Parameter_Value_Data>
+               <bsvc:Instance_Reference>
+                  <bsvc:ID bsvc:parent_id="SSKEnumType" bsvc:parent_type="Integration_Enumeration_Definition_ID" bsvc:type="Integration_Enumeration_ID">Option 1</bsvc:ID>
+               </bsvc:Instance_Reference>
+            </bsvc:Launch_Parameter_Value_Data>
+         </bsvc:Integration_Launch_Parameter_Data>
+      </bsvc:Launch_Integration_Event_Request>
+   </soapenv:Body>
+</soapenv:Envelope>
