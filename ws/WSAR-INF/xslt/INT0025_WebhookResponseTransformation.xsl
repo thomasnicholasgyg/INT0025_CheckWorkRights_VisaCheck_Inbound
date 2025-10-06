@@ -44,8 +44,7 @@
             		<xsl:value-of select="tv:getReferenceData(is:integrationMapReverseLookup('Visa Country', 'Australia'), 'ISO_3166-1_Alpha-3_Code')"/>
             	</Country>
             	<VisaSubclass>
-                	<xsl:value-of select="tv:getReferenceData(is:integrationMapReverseLookup('Workday Visa to CWR Visa',$VisaSubClass),'Visa_ID_Type_ID')"/>
-						
+                	<xsl:value-of select="tv:getReferenceData(is:integrationMapReverseLookup('Workday Visa to CWR Visa',$VisaSubClass),'Visa_ID_Type_ID')"/>						
             	</VisaSubclass>
             	<VNumber>
             	<xsl:variable name="VisaNumber" select="CandidateData/CheckResultFile/File_Metadata/CandidateData[File_Metadata_Label = 'TravelDocumentNumber']/File_Metadata_Value"/>
@@ -172,7 +171,7 @@
     <xsl:function name="Id:Decryption">
     	<xsl:param name="EncryptedText" as="xs:string"/>
     	<xsl:param name="Key" as="xs:string"/>
-    	<xsl:value-of select="decrypt:decrypt($EncryptedText,$Key)"/>
+    	<xsl:value-of select="translate(decrypt:decrypt($EncryptedText,$Key),'&quot;','')"/>
 <!--     	<xsl:value-of select="$Id"/> -->
     </xsl:function>
 </xsl:stylesheet>

@@ -8003,6 +8003,15 @@ props['DecryptKey'] -- @{props['DecryptKey']}&#xD;
                     </cc:log-message>
                 </cc:log>
                 <cc:json-to-xml id="JsonToXml" output="message" output-mimetype="text/xml" input="variable" input-variable="WebhookResponse" nested-object-name="CandidateData" root-element-name="Root"/>
+                <cc:log id="Log">
+                    <cc:log-message>
+                        <cc:text>&#xD;
+********************************************************XML**********************************************************</cc:text>
+                        <cc:message-content/>
+                        <cc:text>&#xD;
+********************************************************XML**********************************************************</cc:text>
+                    </cc:log-message>
+                </cc:log>
             </cc:steps>
             <cc:send-error id="SendError" routes-to="CallSubRoutine0"/>
         </cc:async-mediation>
