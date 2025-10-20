@@ -14,6 +14,7 @@
     <xsl:param name="PassportNumber"/>
     <xsl:param name="PassportExpiry"/>
     <xsl:param name="EmployeeId"/>
+    <xsl:param name="VisaIssueDate"/>
 	<xsl:template match="/">
 		<!-- TODO: Auto-generated template -->
 <env:Envelope
@@ -58,7 +59,7 @@
                             </wd:Country_Reference>
                             <wd:Expiration_Date><xsl:value-of select="$VisaExpiry"/></wd:Expiration_Date>
                             <wd:Verification_Date><xsl:value-of select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/></wd:Verification_Date>
-                           
+                            <wd:Issued_Date><xsl:value-of select="$VisaIssueDate"/></wd:Issued_Date>
                         </wd:Visa_ID_Data>
                     </wd:Visa_ID>
                 </wd:Passports_and_Visas_Identification_Data>

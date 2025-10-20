@@ -8070,6 +8070,7 @@ props['isPassportInfNull'] -- @{props['isPassportInfNull']}&#xD;
                     <cc:expression>props['PassportCountry'] = parts[0].xpath('root/data/PassportInf/PCountry')</cc:expression>
                     <cc:expression>props['PassportNumber'] = parts[0].xpath('root/data/PassportInf/PNumber')</cc:expression>
                     <cc:expression>props['PassportExpiry'] = parts[0].xpath('root/data/PassportInf/PExpiry')</cc:expression>
+                    <cc:expression>props['VisaIssueDate'] = parts[0].xpath('root/data/VisaInf/VisaIssueDate')</cc:expression>
                 </cc:eval>
                 <cc:log id="Log">
                     <cc:log-message>
